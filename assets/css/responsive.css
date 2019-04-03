@@ -1,0 +1,253 @@
+/* ----------- iPad 768-1024 Mini and Air ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px)  {
+  /*======> header css start <=======*/
+  .container{
+    padding: 0 20px;}
+  .header-top-heading h1 {
+    margin-top: 15%;
+    font-size: 20px;}
+  .single-slide-text {
+    margin: 150px 100px 0;}
+ /*======> header css end <===========*/
+/*======> portpolio css start <=======*/
+  .button-group {
+    margin: 0px 60px 50px;}
+  .button-group .button {
+    margin: 11px 15px;}
+/*======> portpolio css end <=======*/
+/*=====> Study css end <============*/
+.main-study-slide-area {
+  width: 50%;
+  left: 3%;
+  top: 10px;}
+.main-study-slid-area-text {
+  width: 91%;
+  padding: 20px 20px 0;}
+/*----- owl-carousel start ---------*/
+.owl-carousel .owl-stage-outer {
+  height: 488px;}
+.owl-item{
+  width: 368.797px;}
+/*----- owl-carousel end ---------*/
+.mani-study-img-area img {
+  width: 100%;
+  height: 505px;}
+/*=====> Study css end <==========*/
+/*=====> team css start <=====*/
+  .img5top {
+    margin-top: 36px;}
+/*=====> team css end <======================*/
+/*=====> bodylight-header css start <=======*/
+  body > div{
+    display: none;
+  }
+/*=====> bodylight-header css end <=======*/
+}
+/* ----------- iPad 768-1024 Mini and Air end----- */
+/* ----------- responsive 600 start-------------- */
+@media only screen 
+  and (max-width: 600px)  {
+  /*======> header css start <=======*/
+  .container{
+    padding: 0 20px;}
+  .header-top-nav {
+    display: none;}
+  .header-top span {
+    display: block;
+    margin-top: 4px;}  
+  .header-top-nav nav ul {
+    width: 100%;
+    position: absolute;
+    background: #555;
+    top: 99%;
+    right: 0%;}
+  .header-top-nav nav ul li {
+    margin-left: 0%;
+    margin-top: 0;}
+  .single-slide-text {
+      margin: 150px 40px 0;}
+  .single-slide-text h1 {
+    font-size: 50px;} 
+/*======> header css end <======*/
+/*=====> History css start <====*/
+  .main-history {
+    flex-direction: column;}
+  .single-history-img{
+    text-align: center;}
+  .single-history-content {
+    max-width: 100%;}
+  .single-head-title {
+    margin-top: 50px;
+    padding-bottom: 25px;} 
+/*=====> History css end <==========*/
+/*=====> Service css start <========*/
+  .single-service-title h2 {
+    margin: 0 35px 0 0;}
+  .single-service-right-title {
+    padding: 0 35px 20px 10px;}
+  .single-service-icon {
+    border: 4px solid #999;
+    right: -70px;}
+/*=====> Service css end <============*/
+/*======> portpolio css start <=======*/
+  .protpolio-title{
+    padding: 0 45px;}
+  .button-group {
+    margin: 0px 0px 50px;}
+  .button-group .button {
+    margin: 11px 15px;}
+  .grid {
+    margin: 0 0 0 40px;}
+/*======> portpolio css end <=======*/
+/*=====> Study css end <============*/
+  .main-study-slide-area {
+    width: 90%;
+    left: 3%;
+    top: 10px;}
+  .main-study-slid-area-text {
+    width: 92%;
+    padding: 20px 20px 0;}
+/*----- owl-carousel start ---------*/
+  .owl-carousel .owl-stage-outer {
+    height: 488px;}
+  .owl-item{
+    width: 279.594px;}
+/*----- owl-carousel end ---------*/
+  .mani-study-img-area{
+    position: absolute;
+    left: 0;}
+  .mani-study-img-area img {
+    height: 566px;}
+/*=====> Study css end <==========*/
+/*=====> counter css start <======*/
+  .counter-area {
+    grid-template-columns: repeat(auto-fit, minmax(179px, 1fr));}
+/*=====> counter css end <======*/
+/*=====> team css start <=======*/
+  .separator::after {
+    left: 52%;}
+  .separator::before {
+    right: 52%;}
+  .main-team-menu-area{
+    margin-top: 11px;}
+  .img1top {
+    margin-top: -9px;}
+  .img5top {
+    margin-top: 30px;}
+/*=====> team css end <=======*/
+/*=====> blog css start <=======*/
+ .main-menu-blog-area {
+  grid-template-columns: repeat( auto-fit, minmax(295px, 1fr));}
+  .main-menu-blog-text-area::after{
+    display: contents;}
+  .main-menu-blog-text-2-area::before {
+    display: contents;} 
+  .main-menu-single-blog-area{
+    display: block;} 
+/*=====> blog css end <==============*/
+/*=====> contact css start <=========*/
+  .main-menu-contact-area {
+    grid-template-columns: repeat( auto-fit, minmax(285px, 1fr));}
+  .single-contact-menu-text-area {
+    padding: 50px 50px;}
+  #single-contact-right-input-area {
+    padding: 50px 40px;} 
+/*=====> contact css end <=========*/
+/*=====> footer css start <=====*/
+  .main-menu-footer-area{
+    display: block;
+    text-align: center;}
+  .single-footer-icon-area{
+    margin-left: 29%;}
+  .single-footer-icon-area ul li {
+    margin-top: 25px;}
+  .single-footer-text-area{
+    padding: 0 0 20px 0;} 
+/*=====> footer css end <======= */
+/*=====> bodylight-header css start <=======*/
+  body > div{
+    display: none;}
+/*=====> bodylight-header css end <=======*/
+  }
+/* ----------- iPad 600 Mini and Air end--------------------- */
+/* ----------- iPad 320px-480px Mini and Air start----------- */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width:480px)  {
+/*=====> header css start <=======*/
+  .single-slide-text {
+    margin: 135px 20px 0;}
+  .single-slide-text h1 {
+    font-size: 37px;}
+  .separator::before {
+      right: 55%;}
+  .separator::after {
+      left: 55%;}
+/*=====> team css end <===========*/
+/*=====> single css start <=======*/
+  .single-history-content {
+    padding: 0px;}
+/*=====> single css end <==========*/
+/*=====> service css start <=======*/
+  .main-service {
+    flex-direction: column;}
+  .single-service-img {
+    display: none;}
+  .single-service-icon {
+    display: none;}
+/*=====> service css end <===========*/
+/*=====> protpolio css start <=======*/
+  .protpolio-title {
+    padding: 0 15px;}
+  .portpolio-manu {
+    padding: 30px 0 0px;}
+  .button-group .button {
+    margin: 13px 0px;}
+  .button-group {
+    margin: 0px 0px 25px;}
+  .grid {
+    margin: 0 0 0 25px;}
+/*=====> protpolio css end <=======*/
+/*=====> Study css start <=========*/
+/*----- owl-carousel start ---------*/
+  .owl-carousel .owl-stage-outer {
+    height: 510px;}
+/*----- owl-carousel end ---------*/
+/*=====> Study css end <============*/
+/*=====> pricing css start <=======*/
+  .main-pricing-menu-area {
+    grid-template-columns: repeat( auto-fit, minmax(265px, 1fr));}
+/*=====> pricing css end <=========*/
+/*=====> team css start <==========*/
+  .main-team-menu-area {
+    margin-top: -15px;}
+  .single-team-item-img-text-area {
+    padding: 16px 6px;
+    font-size: 9px;}
+  .single-team-item-img-area img {
+    width: 60%;}
+  .img5top {
+    margin-top: 16px;}
+  .text-area2 {
+    padding: 16px 0px;}
+/*=====> team css end <============*/
+/*=====> contact css start <=======*/
+  .main-menu-contact-area {
+    grid-template-columns: repeat( auto-fit, minmax(260px, 1fr));}
+  #single-contact-right-input-area button {
+    width: 65%;
+    border-radius: 50px 0 50px 0px;}
+/*=====> contact css end <========*/
+/*=====> video css start <========*/
+  .video-title-area {
+    padding: 39px 15px;}
+/*=====> video css end <==========*/
+/*=====> footer css start <=======*/
+  .single-footer-icon-area {
+    margin-left: 11%;}
+/*=====> footer css end <=======*/
+  }
+/* ------iPad 320-480 Mini and Air end----------------*/
